@@ -1,0 +1,124 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    margin: 0;
+}
+
+
+header {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.center{
+    text-align: center;
+}
+section {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: block;
+    margin: 20px; 
+}
+
+.image-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container .img1 {
+    width: 701px;
+    height: 600px;
+}
+
+.image-container .img2 {
+    width: 700px;
+    height: 450px;
+}
+
+.image-container .img3 {
+    width: 600px;
+    height: 400px;
+}
+
+.image-container .img4 {
+    width: 700px;
+    height: 350px;
+}
+
+
+
+.table-container {
+    overflow-x: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498DB;
+    color: white;
+}
+
+footer {
+    background-color: #3498DB;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
